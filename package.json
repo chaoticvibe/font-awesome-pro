@@ -1,0 +1,20 @@
+{
+  "name": "font-awesome-pro",
+  "version": "1.0.0",
+  "main": "css/all.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PedroIssaGit/font-awesome-pro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PedroIssaGit/font-awesome-pro/issues"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "build": "node ./build/build",
+    "release": "node ./build/release",
+    "start": "http-server ./ -o -c 1 -a localhost"
+  }
+}
